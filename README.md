@@ -20,6 +20,39 @@
 
 ---
 
+# 하나은행 디지털 직군 코딩테스트 대비 추천 문제 (프로그래머스)
+
+하나은행 디지털 직군 코딩테스트 준비를 위한 실전 문제 리스트입니다. 문자열, 구현, 정렬, 탐색, 그리디 등 자주 출제되는 유형 위주로 구성했습니다.
+
+---
+
+## ✅ 문제 리스트
+
+| 번호 | 문제명 | 난이도 | 유형 | 링크 |
+|------|--------|--------|------|------|
+| 1 | 크레인 인형뽑기 게임 | Lv1 | 구현, 스택 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/64061) |
+| 2 | 비밀지도 | Lv1 | 비트, 문자열 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/17681) |
+| 3 | K번째 수 | Lv1 | 정렬, 슬라이싱 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42748) |
+| 4 | 게임 맵 최단거리 | Lv2 | BFS, 탐색 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |
+| 5 | 프린터 | Lv2 | 큐, 구현 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42587) |
+| 6 | 카펫 | Lv2 | 수학, 완전탐색 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42842) |
+| 7 | 올바른 괄호 | Lv2 | 스택 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |
+| 8 | 전화번호 목록 | Lv2 | 해시, 정렬 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42577) |
+| 9 | 단속카메라 | Lv3 | 정렬, 그리디 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42884) |
+| 10 | 네트워크 | Lv3 | DFS/BFS | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/43162) |
+
+---
+
+## 📌 사용 팁
+
+- Lv1~2 문제는 **정확성과 속도** 위주로 연습하세요.
+- Lv3 문제는 **풀이 도전 + 해설 학습** 방식으로 접근하세요.
+- 문제를 풀고 **코드 복습 + 블로그 정리**를 병행하면 효과적입니다.
+
+---
+
+⭐ 준비 열심히 하셔서 좋은 결과 있기를 응원합니다!
+
 # 🧠 삼성 SW 역량테스트 A형 대비 알고리즘 문제 리스트
 
 알고리즘 유형별로 엄선된 10문제씩, 체크리스트로 구성된 실전 대비 문제입니다.  
@@ -105,4 +138,3 @@
 > 📅 추천 풀이 순서: 구현 → 탐색 → 시뮬레이션 강화  
 > ✍️ 완료 시 체크박스 [x]로 변경  
 > 🧪 실전 모의고사 연습 시 시간 제한 두고 풀기!
-
