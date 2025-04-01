@@ -44,24 +44,20 @@ public class Contact {
 		Mem mem = new Mem(start, 1);
 		q.add(mem);
 		int max = 0;
-		
-		int call = 0;
+		int maxdep = 0;
 
 		while (!q.isEmpty()) {
 			Mem cur = q.poll();
 			int num = cur.num;
 			int dep = cur.dep;
 			
-			if(dep > call) {
-				call = dep;
+			if(dep > maxdep) {
+				maxdep = dep;
 				max = 0;
 			}
 			if(num > max) {
 				max = num;
 			}
-
-			
-
 			for (int i = 1; i <= 100; i++) {
 				if (map[num][i] && !v[i]) {
 					q.add(new Mem(i, dep+1));
