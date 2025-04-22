@@ -1,8 +1,9 @@
 package swea;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 public class 오름차순줄세우기 {
@@ -21,14 +22,16 @@ public class 오름차순줄세우기 {
 				arr[i] = sc.nextInt();
 			}
 			
-			for(int num : arr) {
-				int idx = Collections.binarySearch(lis, num);
-				if(idx < 0) idx = -(idx + 1);
-				if(idx == lis.size()) lis.add(num);
-				else lis.set(idx, num);
-			}
+			Map<Integer, Integer> dp = new HashMap<>();
+            int maxLen = 0;
+
+            for (int num : arr) {
+                int len = dp.getOrDefault(num - 1, 0) + 1;
+                dp.put(num, len);
+                maxLen = Math.max(maxLen, len);
+            }
 			
-			int len = N - lis.size();
+			int len = N - maxLen;
 			System.out.printf("#%d %d\n", t, len);
 			
 		}
